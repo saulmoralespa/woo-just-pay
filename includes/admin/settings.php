@@ -42,14 +42,14 @@ return array(
         'title' => __('Title', 'woo-just-pay'),
         'type' => 'text',
         'description' => __('It corresponds to the title that the user sees during the checkout', 'woo-just-pay'),
-        'default' => __('Woo Just Pay', 'woo-just-pay'),
+        'default' => __('Woo Just Pay Online', 'woo-just-pay'),
         'desc_tip' => true
     ),
     'description' => array(
         'title' => __('Description', 'woo-just-pay'),
         'type' => 'textarea',
         'description' => __('It corresponds to the description that the user will see during the checkout', 'woo-just-pay'),
-        'default' => __('Just Pay', 'woo-just-pay'),
+        'default' => __('Just Pay Online payment method', 'woo-just-pay'),
         'desc_tip' => true
     ),
     'debug' => array(
