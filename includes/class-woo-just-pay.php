@@ -19,12 +19,11 @@ class Woo_Just_Pay_SMP extends WC_Payment_Woo_Just_Pay_SMP
         $amount = $order->get_total();
         $currency = $order->get_currency();
         $trans_id = $order_id . "_" . time();
-        $time_expired = '120';
         $url_ok = get_bloginfo( 'url' ) . "?just_pay_order_id=$order_id";
         $url_error = get_bloginfo( 'url' ) . "?status=error&just_pay_order_id=$order_id";
         $url_finalizar = get_bloginfo( 'url' ) . "?just_pay_order_id=$order_id";
 
-        $data_sign = "$this->public_key$time$amount$currency$trans_id$time_expired$url_ok$url_error$channel$this->secure_key";
+        $data_sign = "$this->public_key$time$amount$currency$trans_id$this->expiration_time$url_ok$url_error$channel$this->secure_key";
 
         $signature = hash('sha256', $data_sign);
 
@@ -35,7 +34,7 @@ class Woo_Just_Pay_SMP extends WC_Payment_Woo_Just_Pay_SMP
             'amount' => $order->get_total(),
             'currency' => $order->get_currency(),
             'trans_id' => $trans_id,
-            'time_expired' => $time_expired,
+            'time_expired' => $this->expiration_time,
             'url_ok' => $url_ok,
             'url_error' => $url_error,
             'url_finalizar' => $url_finalizar,

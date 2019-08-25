@@ -75,6 +75,13 @@ return array(
             'lightbox' => __( 'Lightbox', 'woo-just-pay' )
         )
     ),
+    'expiration_time' => array(
+        'title' => __('Expiration time', 'woo-just-pay'),
+        'type' => 'number',
+        'description' => __('The time allowed in minutes to generate transactions', 'woo-just-pay'),
+        'default' => '120',
+        'desc_tip' => true
+    ),
     'environment' => array(
         'title' => __('Environment', 'woo-just-pay'),
         'type'        => 'select',

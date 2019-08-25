@@ -18,7 +18,6 @@ class WC_Payment_Woo_Just_Pay_SMP extends WC_Payment_Gateway
         $this->init_form_fields();
         $this->init_settings();
         $this->title = $this->get_option('title');
-        $this->handle_payment_method = $this->get_option('handle_payment_method');
 
         $this->isTest = $this->get_option( 'environment' );
         $this->debug = $this->get_option( 'debug' );
@@ -32,6 +31,13 @@ class WC_Payment_Woo_Just_Pay_SMP extends WC_Payment_Gateway
             $this->secure_key  = $this->get_option( 'secure_key' );
             $this->end_point = $this->get_option( 'end_point' );
         }
+
+        $this->handle_payment_method = $this->get_option('handle_payment_method');
+
+        if ((int)$this->get_option('expiration_time') < 30)
+            $this->update_option('expiration_time', 30);
+
+        $this->expiration_time = $this->get_option('expiration_time');
 
         add_action('woocommerce_update_options_payment_gateways_' . $this->id, array($this, 'process_admin_options'));
         add_action('woocommerce_receipt_' . $this->id, array($this, 'receipt_page'));
@@ -69,6 +75,7 @@ class WC_Payment_Woo_Just_Pay_SMP extends WC_Payment_Gateway
 
         $payment = new Woo_Just_Pay_SMP();
         $data = $payment->doPayment($params);
+        
 
         if($data['status']){
             wc_reduce_stock_levels($order_id);
