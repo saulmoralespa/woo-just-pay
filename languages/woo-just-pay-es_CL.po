@@ -1,0 +1,244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Just Pay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 16:15+0000\n"
+"PO-Revision-Date: 2019-08-26 16:27+0000\n"
+"Last-Translator: wpdev <cortuclas@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: woo-just-pay.php:78
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-woo-just-pay.php:56
+msgid "An error has occurred when requesting the session for payment"
+msgstr "Se ha producido un error al solicitar el pago de la sesión"
+
+#: woo-just-pay.php:80
+msgid "Click here to configure"
+msgstr "Haga clic aquí para configurar"
+
+#: includes/admin/settings.php:56
+msgid "Debug"
+msgstr ""
+
+#: includes/admin/settings.php:58
+msgid "Debug records, it is saved in payment log"
+msgstr "Registros de depuración, se guarda en el registro de pagos"
+
+#: includes/admin/settings.php:49
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/admin/settings.php:38
+msgid "Enable Just Pay"
+msgstr "Activar Just Pay"
+
+#: includes/admin/settings.php:89
+msgid "Enable to run tests"
+msgstr "Habilitar para ejecutar pruebas"
+
+#: includes/class-gateway-woo-just-pay-cash.php:37
+#: includes/class-gateway-woo-just-pay-cards.php:41
+#: includes/admin/settings.php:36
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: includes/admin/settings.php:119 includes/admin/settings.php:148
+msgid "Endpoint URL"
+msgstr ""
+
+#: includes/admin/settings.php:86
+msgid "Environment"
+msgstr "Entorno"
+
+#: includes/admin/settings.php:79
+msgid "Expiration time"
+msgstr "Tiempo de expiración"
+
+#: includes/class-gateway-woo-just-pay-cash.php:57
+#: includes/class-gateway-woo-just-pay-cards.php:61
+#: includes/admin/settings.php:67
+msgid "Handle payment method"
+msgstr "Manejar método de pago"
+
+#. Author URI of the plugin
+msgid "https://saulmoralespa.com"
+msgstr ""
+
+#: includes/admin/settings.php:51
+msgid ""
+"It corresponds to the description that the user will see during the checkout"
+msgstr "Corresponde a la descripción que el usuario verá durante el pago"
+
+#: includes/class-gateway-woo-just-pay-cash.php:45
+#: includes/class-gateway-woo-just-pay-cards.php:49
+#: includes/admin/settings.php:44
+msgid "It corresponds to the title that the user sees during the checkout"
+msgstr "Corresponde al título que el usuario ve durante el pago"
+
+#: includes/class-woo-just-pay-plugin.php:94
+msgid "Just Pay Cards Settings"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cash.php:11
+#: includes/class-gateway-woo-just-pay-cash.php:39
+#: includes/class-gateway-woo-just-pay-cash.php:46
+msgid "Just Pay Cash"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cash.php:12
+msgid "Just Pay cash payment method"
+msgstr ""
+
+#: includes/class-woo-just-pay-plugin.php:92
+msgid "Just Pay Cash Settings"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cards.php:12
+#: includes/class-gateway-woo-just-pay-cards.php:43
+#: includes/class-gateway-woo-just-pay-cards.php:50
+msgid "Just Pay Credit and debit cards"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cards.php:13
+msgid "Just Pay Credit and debit cards payment method"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay.php:12
+msgid "Just Pay Online"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay.php:13 includes/admin/settings.php:52
+msgid "Just Pay Online payment method"
+msgstr ""
+
+#. Description of the plugin
+msgid "Just pay pasarela de pago de Chile"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cash.php:65
+#: includes/class-gateway-woo-just-pay-cards.php:69
+#: includes/admin/settings.php:75
+msgid "Lightbox"
+msgstr ""
+
+#: includes/admin/settings.php:62
+msgid "Notify URL"
+msgstr "URL de notificación"
+
+#: includes/class-gateway-woo-just-pay-cash.php:109
+#: includes/class-gateway-woo-just-pay.php:99
+#: includes/class-gateway-woo-just-pay-cards.php:113
+msgid "Pay with Just Pay"
+msgstr "Pagar con Just Pay"
+
+#: includes/admin/settings.php:93
+msgid "Production"
+msgstr "Producción"
+
+#: includes/admin/settings.php:98
+msgid "Production credentials"
+msgstr "Credenciales de producción"
+
+#: includes/admin/settings.php:103 includes/admin/settings.php:132
+msgid "public_key"
+msgstr ""
+
+#: includes/class-gateway-woo-just-pay-cash.php:64
+#: includes/class-gateway-woo-just-pay-cards.php:68
+#: includes/admin/settings.php:74
+msgid "Redirection"
+msgstr "Redirección"
+
+#: includes/class-gateway-woo-just-pay-cash.php:60
+#: includes/class-gateway-woo-just-pay-cards.php:64
+#: includes/admin/settings.php:70
+msgid ""
+"Redirection will send the user to the Just Pay checkout, Lightbox remains "
+"the user in the store"
+msgstr ""
+"La redirección enviará al usuario al página de Just Pay, Lightbox sigue el "
+"usuario permanece en la tienda"
+
+#: includes/admin/settings.php:127
+msgid "Sandbox credentials"
+msgstr "Credenciales de prueba"
+
+#. Author of the plugin
+msgid "Saul Morales Pacheco"
+msgstr ""
+
+#: includes/admin/settings.php:111 includes/admin/settings.php:140
+msgid "secure_key"
+msgstr ""
+
+#: includes/class-woo-just-pay-plugin.php:90
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: includes/class-gateway-woo-just-pay.php:132
+#, php-format
+msgid "Successful payment (Transaction ID: %s)"
+msgstr "Pago exitoso (ID de transacción:%s)"
+
+#: includes/admin/settings.php:94
+msgid "Tests"
+msgstr "Pruebas"
+
+#: includes/admin/settings.php:81
+msgid "The time allowed in minutes to generate transactions"
+msgstr "El tiempo permitido en minutos para generar transacciones"
+
+#: includes/class-gateway-woo-just-pay-cash.php:43
+#: includes/class-gateway-woo-just-pay-cards.php:47
+#: includes/admin/settings.php:42
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-gateway-woo-just-pay-cash.php:14
+#: includes/class-gateway-woo-just-pay.php:15
+#: includes/class-gateway-woo-just-pay-cards.php:15
+msgid "to pay"
+msgstr "Pagar"
+
+#: includes/admin/settings.php:100
+msgid "Use the credentials of the Just Pay account   "
+msgstr ""
+
+#: includes/admin/settings.php:129
+msgid "Use the credentials of the Just Pay account for tests"
+msgstr "Use las credenciales de la cuenta Just Pay para las pruebas"
+
+#. Name of the plugin
+msgid "Woo Just Pay"
+msgstr ""
+
+#: includes/class-woo-just-pay-plugin.php:62
+msgid "Woo Just Pay can only be called once"
+msgstr ""
+
+#: includes/admin/settings.php:45
+msgid "Woo Just Pay Online"
+msgstr ""
+
+#: woo-just-pay.php:50
+msgid "Woo Just Pay: Requires php version 7.1.0 or higher"
+msgstr ""
+
+#: woo-just-pay.php:76
+msgid "Woo Just Pay: Requires the currencies CLP, PEN or USD "
+msgstr ""
+
+#: woo-just-pay.php:64
+msgid "Woo Just Pay: Woocommerce must be installed and active."
+msgstr ""
